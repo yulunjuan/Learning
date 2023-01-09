@@ -1,20 +1,7 @@
 #include <iostream>
+#include <cstdlib>
 
-class Progression{
-public:
-    Progression(long f = 0):first(f), cur(f) {};
-    virtual ~Progression() {};
-    void printProgression() {};
-protected:
-    virtual long firstValue();
-    virtual long nextValue();
-protected:
-    long first;
-    long cur;
-
-};
-
-
+using namespace std;
 
 int main(){
 
